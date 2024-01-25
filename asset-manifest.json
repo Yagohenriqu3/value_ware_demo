@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/value_ware_demo/static/css/main.27d50a9c.css",
+    "main.js": "/value_ware_demo/static/js/main.ea156b6c.js",
+    "static/js/787.57792d3b.chunk.js": "/value_ware_demo/static/js/787.57792d3b.chunk.js",
+    "static/media/inovacaotecnologica.jpg": "/value_ware_demo/static/media/inovacaotecnologica.c008413175c585d5a481.jpg",
+    "static/media/pontodeinterrogacao.jpg": "/value_ware_demo/static/media/pontodeinterrogacao.034ce20166eed4af3777.jpg",
+    "static/media/gerenciamento.jpg": "/value_ware_demo/static/media/gerenciamento.e583c64365a4700e3841.jpg",
+    "static/media/grafico.jpg": "/value_ware_demo/static/media/grafico.1d5c25b107c3d0369ab6.jpg",
+    "static/media/equipe.jpg": "/value_ware_demo/static/media/equipe.93cef1519bdb5e36217a.jpg",
+    "static/media/incompany.jpg": "/value_ware_demo/static/media/incompany.93cef1519bdb5e36217a.jpg",
+    "static/media/gestaodeprojetos.jpg": "/value_ware_demo/static/media/gestaodeprojetos.c781262818ee5e9a427c.jpg",
+    "static/media/liderancaeinovacao.jpg": "/value_ware_demo/static/media/liderancaeinovacao.84841fce322838234a65.jpg",
+    "static/media/vmo.jpg": "/value_ware_demo/static/media/vmo.ce3bc1139106183ae423.jpg",
+    "static/media/inovacaosaude.jpg": "/value_ware_demo/static/media/inovacaosaude.44d5226199068b4f0436.jpg",
+    "static/media/sobrenos.jpeg": "/value_ware_demo/static/media/sobrenos.509c20365075d173b6d5.jpeg",
+    "static/media/saladeaula.jpeg": "/value_ware_demo/static/media/saladeaula.5f805576084bc26b39be.jpeg",
+    "static/media/webmobile.jpg": "/value_ware_demo/static/media/webmobile.daa2de87faad9b79b963.jpg",
+    "static/media/saladeaulafaculdade.webp": "/value_ware_demo/static/media/saladeaulafaculdade.2e5a84ee953a2d8aa5f3.webp",
+    "static/media/gerenciamentosaude.webp": "/value_ware_demo/static/media/gerenciamentosaude.195196ec56a02f92e885.webp",
+    "static/media/satisfacao.webp": "/value_ware_demo/static/media/satisfacao.9c3fa6fd2338fb3dae8d.webp",
+    "static/media/treinamento.webp": "/value_ware_demo/static/media/treinamento.824fb60e24cf8934c827.webp",
+    "static/media/programacao.webp": "/value_ware_demo/static/media/programacao.bd5a2468a697aac3ae63.webp",
+    "static/media/logo.png": "/value_ware_demo/static/media/logo.310e56330f478609b0e8.png",
+    "static/media/Furore.otf": "/value_ware_demo/static/media/Furore.7c2d24435f6f4ca0152e.otf",
+    "index.html": "/value_ware_demo/index.html",
+    "main.27d50a9c.css.map": "/value_ware_demo/static/css/main.27d50a9c.css.map",
+    "main.ea156b6c.js.map": "/value_ware_demo/static/js/main.ea156b6c.js.map",
+    "787.57792d3b.chunk.js.map": "/value_ware_demo/static/js/787.57792d3b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27d50a9c.css",
+    "static/js/main.ea156b6c.js"
+  ]
+}
