@@ -1,0 +1,125 @@
+.container {
+    display: flex;
+    align-self: baseline;
+    height: 5.5rem;
+  }
+
+  .container a, .container ul{
+    user-select: none;
+  }
+  
+  .logoValueWare,
+  .container a {
+    width: 10rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    color: #7b7b7b;
+    text-decoration: none;
+    align-self: baseline;
+    
+  }
+  
+  .logoValueWareMobile {
+    display: none;
+  }
+  
+  .container ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    align-self: baseline;
+    
+  }
+  
+  .container ul li {
+    padding: 0 1rem;
+    position: relative;
+  }
+  
+  .container ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.828);
+    border-radius: 0px 0px 5px 5px;
+  }
+  
+  .container ul li ul a {
+    color: #7b7b7b;
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+  }
+  
+  .container ul li ul a:hover {
+    color: #1f1f1f;
+  }
+  
+  .container ul li:hover ul {
+    display: block;
+  }
+  
+  .container a:hover {
+    color: #1f1f1f;
+  }
+  
+  .mobileMenuIcon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+   .container{
+    justify-content: space-between;
+   }
+   
+    .mobileMenuIcon {
+      display: block;
+      margin-left: 0rem;
+      margin-right: 1rem; /* Adicionado para ajustar o espaçamento */
+      font-size: 30px;
+      font-weight: 600;
+      color: #1f1f1f;
+      user-select: none;
+      
+    }
+  
+    .container ul {
+      display: none;
+      flex-direction: column;
+      text-align: right;
+      font-size: 1.2rem;
+      position: absolute;
+      top: 5.5rem;
+      right: 0; /* Alterado de left para right para posicionar à direita */
+      width: 100%;
+      background-color: rgb(255, 255, 255);
+      border-radius: 0px 0px 5px 5px;
+    }
+  
+    .container ul.showMobileMenu {
+      display: flex;
+    }
+    .dropdown{
+      padding: 0;
+      margin: 0;
+    }
+    .container ul li ul{
+        background-color: white;
+        margin: 0;
+        padding: 0;
+    }
+    ul.subpages li Link, .subpages ul{
+      padding: 0;
+      margin: 0;
+    }
+    Link{
+      margin: 0;
+      padding: 0;
+      
+    }
+  }
+  

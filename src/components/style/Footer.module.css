@@ -1,0 +1,83 @@
+.container {
+    background-color: black;
+    height: 20rem;
+    margin-top: 1rem;
+}
+
+.container ul.redessociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    padding-top: 0rem ;
+}
+
+.container ul.redessociais li{
+    font-size: 2rem;
+    color: white;
+    list-style: none;
+    padding: 0 5rem;
+    padding-bottom: 1rem;
+}
+
+.container ul.redessociais li svg{
+    cursor: pointer;
+}
+
+.container p{
+    text-align: center;
+     color: white;
+     padding-bottom: 1rem ;
+}
+
+.container div {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+
+}
+.container div ul li{
+    list-style: none;
+    padding-top: 0.2rem;
+}
+.container div ul li a{
+    color: white;
+    text-decoration: none;
+   
+}
+
+
+
+
+@media (max-width:600px){
+    .container{
+        height: 15rem;
+    }
+    .container ul.redessociais{
+        padding: 1rem;
+        padding-top: 3rem ;
+    }
+    
+    .container ul.redessociais li{
+        padding: 0 2rem;
+    }
+.container div{
+    display: block;
+    padding: 0;
+    margin: 0;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.container div ul{
+    margin: auto;
+}
+.cursosmenu{
+    display: none;
+}
+    
+
+}

@@ -1,0 +1,63 @@
+.container{
+    position: fixed;
+    background-color: white;
+    border-style: solid;
+    border-radius: 2rem;
+    border-width: 2px;
+    border-color: #02351b;
+    width: 14rem;
+    height: 3rem;
+    position: fixed;
+    display: flex;
+    z-index: 10;
+    box-shadow: 5px 5px 1px #02351b;
+    bottom: 10px;
+    right: 10px;
+    text-align: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.container:hover{
+    width: 14.5rem;
+    height: 3.5rem;
+    
+    transition: 0.5s;
+    box-shadow: 7px 7px 1px #02351b;
+}
+
+.container Link:hover{
+    font-size: 1.6rem;
+    transition: 0.5s;
+}
+
+.container .Link{
+    text-decoration: none;
+    color: #02351b;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+}
+
+.container .Link svg{
+    width: 2.5rem;
+    margin: auto;
+    margin-left: 15px;
+    margin-right: 3px;
+}
+
+@media(max-width: 900px) 
+  {
+    .container .Link{
+        margin-left: 5px;
+        margin-top: -5px;
+       
+        }
+    
+      .container .Link img{
+        width: 2.2rem;
+        margin-left: 0px;
+        margin-top: 4px;
+        margin-right: 10px;
+      } 
+  }

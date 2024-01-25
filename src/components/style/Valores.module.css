@@ -1,0 +1,59 @@
+.container{
+    background-color: #02351B;
+    margin-bottom: 2rem;
+}
+
+.container h1{
+    text-align: center;
+    color: white;
+    padding: 2rem;
+}
+.container div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.container div div{
+    padding: 0 1rem;
+    width: 35%;
+}
+.container div div ul{
+    width: 100%;
+}
+.container div div ul li{
+    color: #7b7b7b;
+    transition: 0.1s;
+    
+}
+.container div div ul li:hover{
+    color: #02351B;
+    font-weight: bold;
+    
+}
+
+@media (max-width:600px){
+    .container{
+        background-color: #02351B;
+        margin-bottom: 2rem;
+    }
+    
+    .container h1{
+        padding: 1.5rem;
+    }
+    .container div{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 1rem;
+    }
+    
+    .container div div{
+        padding: 0 1rem;
+        width: 100%;
+        margin-top: 1rem;
+    }
+   
+      
+}

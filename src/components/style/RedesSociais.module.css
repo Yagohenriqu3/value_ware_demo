@@ -1,0 +1,46 @@
+.container{
+    background-color: #02351B;
+    
+}
+.container h1{
+    padding-top: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.container ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.container ul li{
+    
+    font-size: 3rem;
+    color: white;
+    list-style: none;
+    padding: 0 5rem;
+    padding-bottom: 1rem;
+}
+
+.container ul li svg{
+    cursor: pointer;
+}
+
+@media (max-width:600px) {
+    
+    .container h1{
+        padding-top: 1.5rem;
+        font-size: 1.5rem;
+    }
+    
+    
+    .container ul li{
+        
+        font-size: 2.5rem;
+        padding: 0 2rem;
+    }
+   
+}
+    

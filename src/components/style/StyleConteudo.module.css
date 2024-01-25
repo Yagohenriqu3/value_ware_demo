@@ -1,0 +1,48 @@
+
+div.conteudo{
+    width: 100%;
+    text-align: justify;
+    margin: auto;
+    background-color:#FAFAFA;
+    border-width: 0.1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.166);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    color: #818181;
+}
+
+div.conteudo p{
+    font-weight: 400;
+    padding: 0.1em;
+}
+.conteudo h1{
+    color: #044D29;
+    font-weight: bolder;
+}
+.conteudo strong{
+    font-size: 1.5rem;
+    color: #044D29;
+}
+.botoes{
+    width: 90%;
+    margin: auto;
+    
+    
+    
+}
+.botoes button{
+    border-width: 0.1px;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;
+    background-color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    border-color: #818181;
+    
+    
+}
+

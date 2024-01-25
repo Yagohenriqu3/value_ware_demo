@@ -1,0 +1,29 @@
+.NossosServicos{
+    text-align: center;
+    margin: auto;   
+    padding: 1rem;
+    color: #02351B;
+    font-weight: bolder;
+}
+
+ 
+.btnP{
+    font-size: 2rem;
+    font-weight: 500;
+    background-color: #02351B;
+    color: white;
+    border-style: solid;
+    border-width: 0.1px;
+    border-radius: 0 0 0.5rem 0.5rem;
+    border-color: #818181;
+    width: 20rem;
+    padding: 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.btnP img{
+    width: 100%;
+    padding: 0;
+    
+}

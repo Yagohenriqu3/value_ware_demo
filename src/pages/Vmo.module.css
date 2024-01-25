@@ -1,0 +1,81 @@
+.titulo{
+    background-image: url(../components//img/inovacaotecnologica.jpg);
+    height: 15rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.titulo h1{
+    color: white;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.21);
+    font-size: 3rem;
+    padding-top: 5rem;
+    margin-left: 2rem;
+
+}
+
+
+.vmo h1{
+    padding-left: 2rem;
+    margin-top: 2rem;
+}
+.vmo div{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    margin-top: 2rem;
+    
+}
+
+
+.vmo img{
+    width: 90%;
+    margin: auto;
+}
+
+
+.texto{
+    display: inline-block;
+    flex-direction: column;
+    padding-right: 2rem;
+    margin-top: 2rem;
+    
+}
+
+.texto p{
+    text-align: justify;
+}
+
+@media (max-width: 700px){
+    .vmo div{
+       display: inline-block;
+      width: 100%;
+        
+    }
+    .vmo p{
+        padding: 0;
+        margin: 0;
+        width: 95%;
+        margin:auto;
+        padding-left: 1.2rem ;
+        
+
+    }
+    
+    .textop{
+       padding: 0;
+        margin: auto;
+        color: blue;
+        width: 90%;
+        
+    }
+    .titulo h1{
+        font-size: 2rem;
+        margin: 0;
+        ;
+        text-align: left;
+    }
+}
