@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/value_ware_demo/static/css/main.27d50a9c.css",
-    "main.js": "/value_ware_demo/static/js/main.85a8e452.js",
+    "main.css": "/value_ware_demo/static/css/main.6bff6f11.css",
+    "main.js": "/value_ware_demo/static/js/main.cbf0cf43.js",
     "static/js/787.57792d3b.chunk.js": "/value_ware_demo/static/js/787.57792d3b.chunk.js",
     "static/media/inovacaotecnologica.jpg": "/value_ware_demo/static/media/inovacaotecnologica.c008413175c585d5a481.jpg",
     "static/media/pontodeinterrogacao.jpg": "/value_ware_demo/static/media/pontodeinterrogacao.034ce20166eed4af3777.jpg",
@@ -21,15 +21,15 @@
     "static/media/satisfacao.webp": "/value_ware_demo/static/media/satisfacao.9c3fa6fd2338fb3dae8d.webp",
     "static/media/treinamento.webp": "/value_ware_demo/static/media/treinamento.824fb60e24cf8934c827.webp",
     "static/media/programacao.webp": "/value_ware_demo/static/media/programacao.bd5a2468a697aac3ae63.webp",
-    "static/media/logo.png": "/value_ware_demo/static/media/logo.310e56330f478609b0e8.png",
+    "static/media/logo.png": "/value_ware_demo/static/media/logo.31f2a77e671c3b175d0c.png",
     "static/media/Furore.otf": "/value_ware_demo/static/media/Furore.7c2d24435f6f4ca0152e.otf",
     "index.html": "/value_ware_demo/index.html",
-    "main.27d50a9c.css.map": "/value_ware_demo/static/css/main.27d50a9c.css.map",
-    "main.85a8e452.js.map": "/value_ware_demo/static/js/main.85a8e452.js.map",
+    "main.6bff6f11.css.map": "/value_ware_demo/static/css/main.6bff6f11.css.map",
+    "main.cbf0cf43.js.map": "/value_ware_demo/static/js/main.cbf0cf43.js.map",
     "787.57792d3b.chunk.js.map": "/value_ware_demo/static/js/787.57792d3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.27d50a9c.css",
-    "static/js/main.85a8e452.js"
+    "static/css/main.6bff6f11.css",
+    "static/js/main.cbf0cf43.js"
   ]
 }
