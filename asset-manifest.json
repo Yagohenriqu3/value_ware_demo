@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/value_ware_demo/static/css/main.6bff6f11.css",
-    "main.js": "/value_ware_demo/static/js/main.cbf0cf43.js",
+    "main.css": "/value_ware_demo/static/css/main.4a2301d6.css",
+    "main.js": "/value_ware_demo/static/js/main.fd721a40.js",
     "static/js/787.57792d3b.chunk.js": "/value_ware_demo/static/js/787.57792d3b.chunk.js",
     "static/media/inovacaotecnologica.jpg": "/value_ware_demo/static/media/inovacaotecnologica.c008413175c585d5a481.jpg",
     "static/media/pontodeinterrogacao.jpg": "/value_ware_demo/static/media/pontodeinterrogacao.034ce20166eed4af3777.jpg",
@@ -12,7 +12,7 @@
     "static/media/gestaodeprojetos.jpg": "/value_ware_demo/static/media/gestaodeprojetos.c781262818ee5e9a427c.jpg",
     "static/media/liderancaeinovacao.jpg": "/value_ware_demo/static/media/liderancaeinovacao.84841fce322838234a65.jpg",
     "static/media/vmo.jpg": "/value_ware_demo/static/media/vmo.ce3bc1139106183ae423.jpg",
-    "static/media/inovacaosaude.jpg": "/value_ware_demo/static/media/inovacaosaude.44d5226199068b4f0436.jpg",
+    "static/media/inovacaosaude.jpg": "/value_ware_demo/static/media/inovacaosaude.1f547f3becf60321a9a9.jpg",
     "static/media/sobrenos.jpeg": "/value_ware_demo/static/media/sobrenos.509c20365075d173b6d5.jpeg",
     "static/media/saladeaula.jpeg": "/value_ware_demo/static/media/saladeaula.5f805576084bc26b39be.jpeg",
     "static/media/webmobile.jpg": "/value_ware_demo/static/media/webmobile.daa2de87faad9b79b963.jpg",
@@ -24,12 +24,12 @@
     "static/media/logo.png": "/value_ware_demo/static/media/logo.31f2a77e671c3b175d0c.png",
     "static/media/Furore.otf": "/value_ware_demo/static/media/Furore.7c2d24435f6f4ca0152e.otf",
     "index.html": "/value_ware_demo/index.html",
-    "main.6bff6f11.css.map": "/value_ware_demo/static/css/main.6bff6f11.css.map",
-    "main.cbf0cf43.js.map": "/value_ware_demo/static/js/main.cbf0cf43.js.map",
+    "main.4a2301d6.css.map": "/value_ware_demo/static/css/main.4a2301d6.css.map",
+    "main.fd721a40.js.map": "/value_ware_demo/static/js/main.fd721a40.js.map",
     "787.57792d3b.chunk.js.map": "/value_ware_demo/static/js/787.57792d3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bff6f11.css",
-    "static/js/main.cbf0cf43.js"
+    "static/css/main.4a2301d6.css",
+    "static/js/main.fd721a40.js"
   ]
 }
