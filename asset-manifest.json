@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/value_ware_demo/static/css/main.4a2301d6.css",
-    "main.js": "/value_ware_demo/static/js/main.f25215a1.js",
+    "main.js": "/value_ware_demo/static/js/main.cd34a563.js",
     "static/js/787.57792d3b.chunk.js": "/value_ware_demo/static/js/787.57792d3b.chunk.js",
     "static/media/inovacaotecnologica.jpg": "/value_ware_demo/static/media/inovacaotecnologica.c008413175c585d5a481.jpg",
     "static/media/pontodeinterrogacao.jpg": "/value_ware_demo/static/media/pontodeinterrogacao.034ce20166eed4af3777.jpg",
@@ -25,11 +25,11 @@
     "static/media/Furore.otf": "/value_ware_demo/static/media/Furore.7c2d24435f6f4ca0152e.otf",
     "index.html": "/value_ware_demo/index.html",
     "main.4a2301d6.css.map": "/value_ware_demo/static/css/main.4a2301d6.css.map",
-    "main.f25215a1.js.map": "/value_ware_demo/static/js/main.f25215a1.js.map",
+    "main.cd34a563.js.map": "/value_ware_demo/static/js/main.cd34a563.js.map",
     "787.57792d3b.chunk.js.map": "/value_ware_demo/static/js/787.57792d3b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4a2301d6.css",
-    "static/js/main.f25215a1.js"
+    "static/js/main.cd34a563.js"
   ]
 }
