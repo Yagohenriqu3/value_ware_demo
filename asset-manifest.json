@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/value_ware_demo/static/css/main.734ad093.css",
+    "main.css": "/value_ware_demo/static/css/main.e103e479.css",
     "main.js": "/value_ware_demo/static/js/main.8825987d.js",
     "static/js/787.57792d3b.chunk.js": "/value_ware_demo/static/js/787.57792d3b.chunk.js",
     "static/media/inovacaotecnologica.jpg": "/value_ware_demo/static/media/inovacaotecnologica.c008413175c585d5a481.jpg",
@@ -26,12 +26,12 @@
     "static/media/programacao.webp": "/value_ware_demo/static/media/programacao.bd5a2468a697aac3ae63.webp",
     "static/media/logo.png": "/value_ware_demo/static/media/logo.31f2a77e671c3b175d0c.png",
     "index.html": "/value_ware_demo/index.html",
-    "main.734ad093.css.map": "/value_ware_demo/static/css/main.734ad093.css.map",
+    "main.e103e479.css.map": "/value_ware_demo/static/css/main.e103e479.css.map",
     "main.8825987d.js.map": "/value_ware_demo/static/js/main.8825987d.js.map",
     "787.57792d3b.chunk.js.map": "/value_ware_demo/static/js/787.57792d3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.734ad093.css",
+    "static/css/main.e103e479.css",
     "static/js/main.8825987d.js"
   ]
 }
