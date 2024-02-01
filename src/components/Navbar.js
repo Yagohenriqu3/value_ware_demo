@@ -12,11 +12,16 @@ function Navbar() {
   const toggleMobileMenu = () => {
     setShowMobileMenu(!showMobileMenu);
   };
+  
+  
+  const closeMobileMenu = () => {
+    setShowMobileMenu(false);
+  };
 
+  
   return (
-    
     <header className={styles.container}>
-      <Link to='/'>
+      <Link to='/' onClick={closeMobileMenu}>
         <img src={Logo} alt="Logo marca Value Ware" className={styles.logoValueWare} />
       </Link>
 
@@ -25,20 +30,27 @@ function Navbar() {
       </div>
 
       <ul className={`${styles.navList} ${showMobileMenu ? styles.showMobileMenu : ''}`}>
-      
         <li>
-          <Link to='/Vmo'>Value Management Officer</Link>
+          <Link to='/SobreNos' onClick={closeMobileMenu}>
+          Institucional
+          </Link>
+        </li>
+        <li>
+          <Link to='/Vmo' onClick={closeMobileMenu}>
+            Value Management Officer
+          </Link>
         </li>
 
         <li className={styles.dropdown}>
-          <Link to='/MbaEcursos'>MBAs e Cursos</Link>
+          <Link to='/MbaEcursos' onClick={closeMobileMenu}>
+            MBAs e Cursos
+          </Link>
         </li>
 
         <li>
-          <Link to='/SobreNos'>Sobre-nós</Link>
-        </li>
-        <li>
-          <Link to='/Contate-nos'>Contate-nos</Link>
+          <Link to='/Contate-nos' onClick={closeMobileMenu}>
+            Contatos
+          </Link>
         </li>
       </ul>
     </header>

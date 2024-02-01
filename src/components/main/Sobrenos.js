@@ -11,7 +11,11 @@ function Sobrenos(){
         </div>
        <div className={Style.sobrenosTexto}>
            
-           <p>A Value Ware oferece serviços personalizados de consultoria para os setores de educação e saúde, com foco em compreender profundamente as necessidades específicas do seu negócio e desenvolver estratégias eficazes para superar desafios e impulsionar seu crescimento, com a facilitação da transformação digital e a geração de valor para seus clientes, colaboradores e gestores.</p>
+           <p>A Value Ware oferece serviços personalizados de consultoria em gestão e co-criação de
+            valor, nosso foco é compreender profundamente as necessidades específicas do seu
+            negócio e desenvolver estratégias eficazes para superar desafios e impulsionar seu
+            crescimento, com a facilitação na transformação digital e a geração de valor para seus
+            clientes, colaboradores e gestores.</p>
            <Link to='/SobreNos'>Saiba mais</Link>
        </div>
        

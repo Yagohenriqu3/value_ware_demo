@@ -1,7 +1,10 @@
+.container{
+    margin-top: 4rem;
+}
 .contato{
     width: 90%;
     margin: auto;
-    background-color: #F5F3F3;
+    background-color: #f5f3f3;
     padding: 2rem;
     border-radius: 1rem;
     border-style: solid;
@@ -10,11 +13,19 @@
 }
 
 .container button{
-    background-color: #02351B;
+    background-color: #525252;
     border-style: none;
     color: white;
     cursor: pointer;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
+    transition: 0.2s;
+
+}
+
+.container button:hover{
+    background-color: #232323;
+    color: white;
+    
 
 }

@@ -1,6 +1,6 @@
 .container {
     background-color: black;
-    height: 20rem;
+    height: 15rem;
     margin-top: 1rem;
 }
 
@@ -48,7 +48,10 @@
    
 }
 
-
+.navfooter li{
+    display: inline-block;
+    padding: 0 0.5rem;
+}
 
 
 @media (max-width:600px){

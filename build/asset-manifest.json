@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/value_ware_demo/static/css/main.8e313a91.css",
+    "main.js": "/value_ware_demo/static/js/main.2924433d.js",
+    "static/js/787.57792d3b.chunk.js": "/value_ware_demo/static/js/787.57792d3b.chunk.js",
+    "static/media/grafico.jpg": "/value_ware_demo/static/media/grafico.88a138aabf70922e8f3f.jpg",
+    "static/media/sobrenos.jpeg": "/value_ware_demo/static/media/sobrenos.509c20365075d173b6d5.jpeg",
+    "static/media/liderancaeinovacao.jpg": "/value_ware_demo/static/media/liderancaeinovacao.71c4ae51bdb183c9abba.jpg",
+    "static/media/saladeaulafaculdade.webp": "/value_ware_demo/static/media/saladeaulafaculdade.2e5a84ee953a2d8aa5f3.webp",
+    "static/media/gerenciamentosaude.webp": "/value_ware_demo/static/media/gerenciamentosaude.195196ec56a02f92e885.webp",
+    "static/media/inovacaotecnologicamobile.jpg": "/value_ware_demo/static/media/inovacaotecnologicamobile.14e3dcc97d97f9c6a46a.jpg",
+    "static/media/inovacaotecnologica.jpg": "/value_ware_demo/static/media/inovacaotecnologica.0ef2f89a11ec6d93921b.jpg",
+    "static/media/vmo.jpg": "/value_ware_demo/static/media/vmo.0f5232a1abd14e145ec4.jpg",
+    "static/media/equipe.jpg": "/value_ware_demo/static/media/equipe.c00ae2e21ac9ebdb0712.jpg",
+    "static/media/saladeaula.jpg": "/value_ware_demo/static/media/saladeaula.7bc9069de6690e787e6a.jpg",
+    "static/media/satisfacao.webp": "/value_ware_demo/static/media/satisfacao.cf4b92fc21a8058546ea.webp",
+    "static/media/treinamento.webp": "/value_ware_demo/static/media/treinamento.ec45779bbb01b4dc0ae3.webp",
+    "static/media/gestaoderotina.jpg": "/value_ware_demo/static/media/gestaoderotina.7baf9f3727726011780d.jpg",
+    "static/media/desempenho.jpg": "/value_ware_demo/static/media/desempenho.b10595f92e4f63eea1de.jpg",
+    "static/media/gerenciamentodeprojeto.jpg": "/value_ware_demo/static/media/gerenciamentodeprojeto.568284e9b2c8d874a6b5.jpg",
+    "static/media/programacao.webp": "/value_ware_demo/static/media/programacao.8542045841403992deea.webp",
+    "static/media/pontodeinterrogacao.jpg": "/value_ware_demo/static/media/pontodeinterrogacao.f98264127b4c915bfae9.jpg",
+    "static/media/gestaoderiscos.jpg": "/value_ware_demo/static/media/gestaoderiscos.d0e059cc4f6136f649f1.jpg",
+    "static/media/gestaodeprojetos.jpg": "/value_ware_demo/static/media/gestaodeprojetos.cb3e362147dc7202aa24.jpg",
+    "static/media/incompany.jpg": "/value_ware_demo/static/media/incompany.ecd6f724d81113627a7d.jpg",
+    "static/media/inovacaosaude.jpg": "/value_ware_demo/static/media/inovacaosaude.f6ae3c452749b55ca54c.jpg",
+    "static/media/logo.png": "/value_ware_demo/static/media/logo.31f2a77e671c3b175d0c.png",
+    "static/media/webmobile.jpg": "/value_ware_demo/static/media/webmobile.cf578a0e135ba4ce9ce1.jpg",
+    "index.html": "/value_ware_demo/index.html",
+    "main.8e313a91.css.map": "/value_ware_demo/static/css/main.8e313a91.css.map",
+    "main.2924433d.js.map": "/value_ware_demo/static/js/main.2924433d.js.map",
+    "787.57792d3b.chunk.js.map": "/value_ware_demo/static/js/787.57792d3b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e313a91.css",
+    "static/js/main.2924433d.js"
+  ]
+}

@@ -1,5 +1,5 @@
 .container{
-    background-color: #02351B;
+    background-color: #3e3e3e;
     margin-bottom: 2rem;
 }
 
@@ -28,14 +28,14 @@
     
 }
 .container div div ul li:hover{
-    color: #02351B;
+    color: black;
     font-weight: bold;
     
 }
 
 @media (max-width:600px){
     .container{
-        background-color: #02351B;
+        background-color: #595858;
         margin-bottom: 2rem;
     }
     

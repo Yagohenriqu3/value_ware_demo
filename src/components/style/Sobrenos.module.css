@@ -43,7 +43,9 @@
     border-width: 1px;
     padding: 0.3rem 0.5rem;
     border-radius: 1rem;
+    transition: 0.5s;
 }
+
 
 .sobrenosTexto a:hover{
     text-decoration: none;

@@ -1,7 +1,11 @@
 import Styles from "./Container.module.css"
+import style from '../../components/style/breadcrumb.module.css'
+import { Link } from 'react-router-dom'
 import PontoDeInterrogacao from '../../components/img/cursos/pontodeinterrogacao.jpg'
-import Gerenciamento from '../../components/img/cursos/gerenciamento.jpg'
+import Gerenciamento from '../../components/img/cursos/gestaoderotina.jpg'
 import Liderancaeinovacao from '../../components/img/cursos/liderancaeinovacao.jpg'
+import SaibamaisBotaoExterno from "./SaibamaisBotaoExterno"
+
 
 
 function CursosInCompany(){
@@ -14,6 +18,19 @@ function CursosInCompany(){
     
     return (
     <section className={`${Styles.container}`}>
+   <nav className={style.nav}>
+  <ul>
+    <Link to="/">
+        <li>Home</li>
+    </Link>
+    <li>/</li>
+    <Link to="/MbaEcursos">
+        <li>MBAs e cursos</li>
+    </Link>
+    <li>/</li>
+    <li>Gestão de Projetos</li>
+  </ul>
+</nav>
         
             <div>
                 <div className={`${Styles.intro}`}>
@@ -39,13 +56,15 @@ function CursosInCompany(){
                 <div className={Styles.bloco2}>
                     
                     <p><h2>"Transformação Empresarial: MBA Inovador Preparando Líderes para os Desafios da Atualidade Corporativa"</h2>Seja você um gerente, coordenador, empreendedor ou atuando em áreas como marketing, finanças, tecnologia ou recursos humanos, este MBA irá prepará-lo para enfrentar os desafios do mundo corporativo atual de forma inovadora e competitiva. Com uma abordagem prática e focada em resultados, os alunos irão desenvolver habilidades fundamentais para construir e liderar times de alta performance, criar valor para negócios e projetos, gerir de forma eficaz projetos e produtos, e se preparar para a transformação digital e a indústria 4.0.</p>
-                    <img src={Gerenciamento} alt="Gerentes" />
+                    <img src={Gerenciamento} alt="Gerentes" /> 
                 </div>
                 <div>
                 <iframe width="800" height="450" src="https://www.youtube.com/embed/D9_HV3fC7to?si=xC0Qr_nsBAerqwMc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
-
-                <button type="button">Saiba mais</button>
+                
+                <SaibamaisBotaoExterno 
+                    link={'https://www.unisuam.edu.br/pos/mba-em-lideranca-e-inovacao-na-gestao-de-projetos-4-0'}
+                />
             </div>
 
 

@@ -1,11 +1,25 @@
-import { useState } from 'react'
+import { Link } from 'react-router-dom'
+import breadcrumb from '../style/breadcrumb.module.css'
 import Style from '../style/Contato.module.css'
 
 
 function Form (){
 return (
-    <div className={Style.container} >
-        
+   <>
+    <nav className={breadcrumb.nav}>
+  <ul>
+    <Link to="/">
+        <li>Home</li>
+    </Link>
+    <li>/</li>
+        <li>Contate-nos</li>
+   
+    
+  </ul>
+</nav> 
+   
+   <div className={Style.container} >
+      
         <form className={Style.contato} id='contatenos'>
       <h1 style={{ fontWeight: '100' }}>Contate-nos</h1>
       <div className="form-row">
@@ -39,7 +53,7 @@ return (
       <button type="submit">Enviar</button>
     </form>
     </div>
-
+</>
 )
 
 }

@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar.js'
 import Footer from './components/footer.js'
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 //pages
 import Main from './pages/Main.js'
 import MbasEcursos from './pages/MbasEcursos.js';
@@ -37,9 +37,10 @@ function App() {
         <Route path='/MbaEcursos/MbaGp' element={<MbaGp />} />
         <Route path='/MbaEcursos/MbaSaude' element={<MbaSaude />} />
         <Route path='/MbaEcursos/CursosInCompany' element={<CursosInCompany />} />
-      </Routes>
         
+      </Routes>
       </div>
+      
         <ButtonContatenos />
         <Footer/>
       </Router> 

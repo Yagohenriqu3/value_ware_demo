@@ -1,7 +1,7 @@
 .container {
     display: flex;
-    align-self: baseline;
-    height: 5.5rem;
+    align-self: center;
+    height: 5rem;
   }
 
   .container a, .container ul{
@@ -10,9 +10,10 @@
   
   .logoValueWare,
   .container a {
+    
     width: 10rem;
     margin-left: 1rem;
-    margin-top: 0.5rem;
+    margin-top: 0.8rem;
     color: #7b7b7b;
     text-decoration: none;
     align-self: baseline;
@@ -27,6 +28,7 @@
     display: flex;
     list-style: none;
     padding: 0;
+    margin-left: 2rem;
     align-self: baseline;
     
   }
@@ -78,11 +80,10 @@
    
     .mobileMenuIcon {
       display: block;
-      margin-left: 0rem;
-      margin-right: 1rem; /* Adicionado para ajustar o espaçamento */
+      margin: auto 1rem;
       font-size: 30px;
       font-weight: 600;
-      color: #1f1f1f;
+      color: #1f1f1f; 
       user-select: none;
       
     }
@@ -93,7 +94,7 @@
       text-align: right;
       font-size: 1.2rem;
       position: absolute;
-      top: 5.5rem;
+      top: 5.0rem;
       right: 0; /* Alterado de left para right para posicionar à direita */
       width: 100%;
       background-color: rgb(255, 255, 255);

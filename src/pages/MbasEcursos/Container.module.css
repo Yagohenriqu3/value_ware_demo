@@ -1,13 +1,12 @@
 .container{
     margin: auto;
     text-align: center;
-    
+   
 }
 
 
 .intro div{
     margin-top: 1rem;
-   
     height: 20rem;
     background-position: 0px 40%;
     background-repeat: no-repeat;
@@ -52,7 +51,7 @@
    border-width: 1px;
    border-color: #8b8b8b;
    border-radius: 10px;
-   background-color: #02351bf9;
+   background-color: #444444;
    color: white;
    width: 90%;
    font-size: 1.2rem;
@@ -66,8 +65,6 @@
     width: 90%;
     margin: 5rem auto;
     padding-right: 2rem;
-    align-items: flex-start;
-    justify-content: space-between;
     border-right-style: solid;
     border-width: 1px;
     border-color: #4545453e;
@@ -82,13 +79,13 @@
 
 .paraQuemE img{
     width: 30rem;
-    margin-top: 1rem;
+    height: auto;
    
 }
 
 .paraQuemE p{
     padding-left: 2rem ;
-    padding-bottom: 5rem;
+    margin: auto;
     
     
 
@@ -101,9 +98,11 @@
     padding-left: 1rem;
     border-width: 1px;
     border-color: #4545453e;
-   
     width: 90%;
+    height: 20rem;
     margin: 6rem auto;
+    margin: auto;
+    
 }
 
 .bloco2 h2{
@@ -113,6 +112,8 @@
 
 .bloco2 p{
     padding-right: 2rem;
+    height: auto;
+    margin: auto;
 }
 
 .bloco2 img{
@@ -122,7 +123,7 @@
 .container button{
     border-width: 1px;
     border-color: #454545;
-    background-color: #02351bf9;
+    background-color: #444444;
     color:white;
     padding: 0.5rem 5rem;
     font-size: 2rem;
@@ -140,46 +141,123 @@
 
 .NaoEcontrou{
     font-size: 1.5rem;
+    padding-top: 2rem;
     font-weight: bold;
 }
 
-@media (max-width:700px){
-    .intro div h1{
-        font-size: 3rem;
-    }
-    .intro div h2{
-        font-size: 1.8rem;
-        width: 90%;
-    }
-    .paraQuemE{
-        display: block;
-        margin: auto;
-        padding: 0;
-    }
+iframe{
+    margin-top: 3rem;
+}
 
-    .paraQuemE img{
-        width: 100%;
-        padding: 0;
-        margin:0;
+@media (max-width:700px){
+    .container {
+        margin: auto;
+        text-align: center;
     }
-    .paraQuemE p{
+    
+    .intro div {
+        margin-top: 1rem;
+        height: 20rem;
+        background-position: 0px 40%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 2rem;
+        box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.5);
+        
+    }
+   
+    .intro div h1 {
+        text-align: center; /* Alterado para centralizar o texto em telas menores */
+        padding: 2rem; /* Adicionado espaço ao redor do texto */
+        color: white;
+        font-size: 4rem; /* Reduzido o tamanho da fonte para telas menores */
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.742);
+    }
+    
+    .intro div h2 {
+        text-align: left; /* Alterado para centralizar o texto em telas menores */
+        font-weight: bold;
+        color: white;
+        width: 100%;
+        font-size: 2rem; /* Reduzido o tamanho da fonte para telas menores */
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+       
+    }
+    
+    .container p {
+        color: #8b8b8b;
+        width: 98%; /* Aumentado a largura para melhor legibilidade em telas menores */
+        text-align: left;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    
+    .intro p {
+        padding: 1rem; /* Reduzido o preenchimento para telas menores */
+        border-style: solid;
+        border-width: 1px;
+        border-color: #8b8b8b;
+        border-radius: 10px;
+        background-color: #444444;
+        color: white;
+        width: 98%; /* Aumentado a largura para melhor legibilidade em telas menores */
+        font-size: 1rem; /* Reduzido o tamanho da fonte para telas menores */
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.599);
+    }
+    
+    .paraQuemE {
+        flex-direction: column; /* Alterado para empilhar os elementos em telas menores */
         width: 90%;
+        margin: 3rem auto; /* Reduzido a margem para telas menores */
         padding: 0;
-        padding: 0.5rem;
+        align-items: center; /* Centralizado os itens em telas menores */
+        border: none; /* Removido a borda direita em telas menores */
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.173);
     }
-    .bloco2{
-        display: block;
-    }
-    .bloco2 img{
+    
+    .paraQuemE img {
         width: 100%;
-        padding: 0;
+        height: auto;
+    }
+    
+    .paraQuemE p {
+        width: 98%;
+        padding: 0.8rem;
         margin: 0;
+        text-align: center; /* Centralizado o texto em telas menores */
+    }
+    
+    .bloco2 {
+        flex-direction: column; /* Alterado para empilhar os elementos em telas menores */
+        border-left: none; /* Removido a borda esquerda em telas menores */
+        padding-left: 0; /* Removido o preenchimento à esquerda em telas menores */
+        width: 90%;
+        height: auto;
+        margin: 6rem auto;
+    }
+    
+    .bloco2 h2 {
+        color: #454545;
+        padding-top: 1rem; /* Aumentado o espaço superior em telas menores */
+        text-align: center; /* Centralizado o texto em telas menores */
+    }
+    
+    .bloco2 p {
+        padding: 1rem; /* Adicionado preenchimento para melhor legibilidade em telas menores */
+        text-align: center; /* Centralizado o texto em telas menores */
+        width: 98%;
+    }
+    
+    .bloco2 img {
+        width: 100%;
+    }
+    
+    .container button {
+        width: 80%; /* Aumentado a largura para melhor legibilidade em telas menores */
+        font-size: 1.5rem; /* Reduzido o tamanho da fonte para telas menores */
         margin-top: 1rem;
     }
-    .bloco2 p{
-        padding: 0;
-        margin: 0;
-        width: 90%;
-        margin: auto;
-    }
+    
+    
+  
 }

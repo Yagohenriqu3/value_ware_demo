@@ -1,13 +1,31 @@
+import styles from '../components/style/breadcrumb.module.css'
 import style from './SobreNospage.module.css'
 import EquipeImage from '../components/img/main/equipe.jpg'
 import Valores from '../components/main/Valores'
 import SatisfacaoImage from '../components/img/satisfacao.webp'
 
+import { Link } from 'react-router-dom'
+
+
 
 
 function SobreNos(){
-    return (
+    return ( 
+    <>
+        <nav className={styles.nav}>
+  <ul>
+    <Link to="/">
+        <li>Home</li>
+    </Link>
+    <li>/</li>
+        <li>Sobre nós</li>
+   
+     
+  </ul>
+</nav>
+
         <section className={`${style.sobreNos}`}>
+        
             <article>
                 <div className={style.titulo}>
                     <h1>Sobre nós</h1>
@@ -31,7 +49,7 @@ function SobreNos(){
                 
             </article>
         </section>
-        
+        </>  
     )
     
 }

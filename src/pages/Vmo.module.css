@@ -1,10 +1,11 @@
+
+
 .titulo{
     background-image: url(../components//img/inovacaotecnologica.jpg);
     height: 15rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
     
 }
 
@@ -26,7 +27,8 @@
     width: 100%;
     text-align: center;
     display: flex;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    
     
 }
 
@@ -47,9 +49,29 @@
 
 .texto p{
     text-align: justify;
+    color: #818181;
+}
+.vmo h2{
+    text-align: left;
+    color: #4f4f4f;
+}
+.vmo ul.lista{
+    margin: 0;
+    padding-left: 1rem;
+}
+.vmo ul.lista li{
+    list-style: square;
+    text-align: left;
+    padding-left: 0rem;
+    margin: 0;
 }
 
+
 @media (max-width: 700px){
+    .titulo{
+        background-image: url(../components//img/inovacaotecnologicamobile.jpg);
+    }
+    
     .vmo div{
        display: inline-block;
       width: 100%;
@@ -60,7 +82,9 @@
         margin: 0;
         width: 95%;
         margin:auto;
-        padding-left: 1.2rem ;
+        padding-left: 1.2rem;
+        color: #818181;
+        text-align: center;
         
 
     }
@@ -68,14 +92,33 @@
     .textop{
        padding: 0;
         margin: auto;
-        color: blue;
         width: 90%;
         
     }
     .titulo h1{
         font-size: 2rem;
         margin: 0;
-        ;
+        color: white;
         text-align: left;
     }
+
+    .vmo ul.lista{
+        margin: auto;
+        padding-left: 2rem;
+        width: 95%;
+    }
+    .vmo ul.lista li{
+        list-style: square;
+     
+        padding-left: 0rem;
+        margin: 0;
+    }
+    .texto h2{
+        text-align: center;
+        font-size: 1.5rem;
+        width: 95%;
+        margin-top: 1rem;
+        color: #4f4f4f;
+    }
+    
 }

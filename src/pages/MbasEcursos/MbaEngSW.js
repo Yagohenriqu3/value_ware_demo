@@ -1,7 +1,10 @@
 import Styles from "./Container.module.css"
+import style from '../../components/style/breadcrumb.module.css'
+import { Link } from 'react-router-dom'
 import PontoDeInterrogacao from '../../components/img/cursos/pontodeinterrogacao.jpg'
-import Gerenciamento from '../../components/img/cursos/gerenciamento.jpg'
+import Gerenciamento from '../../components/img/cursos/gestaoderotina.jpg'
 import Programacao from '../../components/img/programacao.webp'
+import SaibamaisBotaoExterno from "./SaibamaisBotaoExterno"
 
 
 function CursosInCompany(){
@@ -14,6 +17,19 @@ function CursosInCompany(){
     
     return (
     <section className={`${Styles.container}`}>
+   <nav className={style.nav}>
+  <ul>
+    <Link to="/">
+        <li>Home</li>
+    </Link>
+    <li>/</li>
+    <Link to="/MbaEcursos">
+        <li>MBAs e cursos</li>
+    </Link>
+    <li>/</li>
+    <li>Engenharia de Software</li>
+  </ul>
+</nav>
         
             <div>
                 <div className={`${Styles.intro}`}>
@@ -44,8 +60,10 @@ function CursosInCompany(){
                 <div>
                 <iframe width="800" height="450" src="https://www.youtube.com/embed/-NAtxw_0azY?si=S3dRJakayqYMC8dz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
-
-                <button type="button">Saiba mais</button>
+                
+                <SaibamaisBotaoExterno
+                 link={'https://www.unisuam.edu.br/pos/mba-em-engenharia-de-software-com-enfase-em-desenvolvimento-mobile-e-web-3-0'}
+                 />
             </div>
 
 

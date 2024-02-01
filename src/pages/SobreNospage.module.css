@@ -1,3 +1,4 @@
+
 .sobreNos article{
     width: 100%;
     margin: auto;
@@ -12,14 +13,15 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-}
+} 
 
 .titulo h1{
     color: white;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.21);
     font-size: 3rem;
     padding-top: 5rem;
-    margin-left: 2rem;
+    padding-left: 2rem;
+    
 
 }
 
@@ -39,13 +41,22 @@
 .equipe p{
     padding: 1.5rem;
 }
+.sobreNos{
+    margin-top: 1rem;
+}
 
 @media (max-width: 700px){
+    .sobreNos{
+        margin-top: 1rem;
+    }
     .equipe{
         display: block;
     }
     .equipe img{
         width: 100%;
         margin: auto;
+    }
+    .sobreNos article{
+        text-align: center;
     }
 }

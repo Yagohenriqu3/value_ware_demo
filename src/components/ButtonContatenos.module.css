@@ -4,13 +4,13 @@
     border-style: solid;
     border-radius: 2rem;
     border-width: 2px;
-    border-color: #02351b;
+    border-color: black;
     width: 14rem;
     height: 3rem;
     position: fixed;
     display: flex;
     z-index: 10;
-    box-shadow: 5px 5px 1px #02351b;
+    box-shadow: 5px 5px 1px black;
     bottom: 10px;
     right: 10px;
     text-align: center;
@@ -21,9 +21,8 @@
 .container:hover{
     width: 14.5rem;
     height: 3.5rem;
-    
     transition: 0.5s;
-    box-shadow: 7px 7px 1px #02351b;
+    box-shadow: 7px 7px 1px black;
 }
 
 .container Link:hover{
@@ -33,7 +32,7 @@
 
 .container .Link{
     text-decoration: none;
-    color: #02351b;
+    color: black;
     font-weight: bold;
     font-size: 1.5rem;
     padding-left: 0.5rem;
