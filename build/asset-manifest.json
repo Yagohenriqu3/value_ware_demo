@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/value_ware_demo/static/css/main.8e313a91.css",
-    "main.js": "/value_ware_demo/static/js/main.2924433d.js",
+    "main.css": "/value_ware_demo/static/css/main.119aae54.css",
+    "main.js": "/value_ware_demo/static/js/main.4c4339eb.js",
     "static/js/787.57792d3b.chunk.js": "/value_ware_demo/static/js/787.57792d3b.chunk.js",
     "static/media/grafico.jpg": "/value_ware_demo/static/media/grafico.88a138aabf70922e8f3f.jpg",
     "static/media/sobrenos.jpeg": "/value_ware_demo/static/media/sobrenos.509c20365075d173b6d5.jpeg",
@@ -27,12 +27,12 @@
     "static/media/logo.png": "/value_ware_demo/static/media/logo.31f2a77e671c3b175d0c.png",
     "static/media/webmobile.jpg": "/value_ware_demo/static/media/webmobile.cf578a0e135ba4ce9ce1.jpg",
     "index.html": "/value_ware_demo/index.html",
-    "main.8e313a91.css.map": "/value_ware_demo/static/css/main.8e313a91.css.map",
-    "main.2924433d.js.map": "/value_ware_demo/static/js/main.2924433d.js.map",
+    "main.119aae54.css.map": "/value_ware_demo/static/css/main.119aae54.css.map",
+    "main.4c4339eb.js.map": "/value_ware_demo/static/js/main.4c4339eb.js.map",
     "787.57792d3b.chunk.js.map": "/value_ware_demo/static/js/787.57792d3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e313a91.css",
-    "static/js/main.2924433d.js"
+    "static/css/main.119aae54.css",
+    "static/js/main.4c4339eb.js"
   ]
 }

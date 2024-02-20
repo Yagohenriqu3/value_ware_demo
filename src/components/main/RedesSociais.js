@@ -1,4 +1,4 @@
-import { FaEnvelope, FaInstagram, FaLinkedin} from 'react-icons/fa'
+import { FaEnvelope, FaLinkedin} from 'react-icons/fa'
 import style from '../style/RedesSociais.module.css'
 
 
@@ -7,9 +7,13 @@ function RedesSociais(){
         <div className={style.container}>
             <h1>Encontre-nos em nossas redes</h1>
             <ul>
-                <li><FaInstagram /></li>
-                <li><FaLinkedin /></li>
-                <li><FaEnvelope /></li>
+                <a href="https://www.linkedin.com/company/value-ware/" target='_blank'>
+                    <li><FaLinkedin /></li>
+                </a>
+                <a href="mailto:contato@valueware.com.br">
+  <li><FaEnvelope /></li>
+</a>
+                
             </ul>
         </div>
 
